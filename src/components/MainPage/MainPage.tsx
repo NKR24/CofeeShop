@@ -4,8 +4,8 @@ import cofee from "../../assets/img/main-cofee.jpg"
 export default function MainPage() {
   return (
     <>
-      <img src={cofee} alt="cofee logo" className={styles.coffeeMain} />
       <main className={styles.container}>
+        <img src={cofee} alt="cofee logo" className={styles.coffeeMain} />
         <div className={styles.main}>
           <div className={styles.first}>
             <h1 className={styles.mainText}>

@@ -1,10 +1,11 @@
 .container{;
-  padding-left: 19.53vw;
-  padding-top: 7.66vw;
 }
 
 .main{
   display: flex;
+  padding-left: 19.53vw;
+  padding-top: 7.66vw;
+  padding-bottom: 10.66vw;
 }
 
 .mainText{
@@ -29,7 +30,7 @@
   margin-top: -7vw;
   position: absolute;
   z-index: -1;
-  width: 100vw;
+  width: 99.2vw;
 }
 
 .testcoffee{

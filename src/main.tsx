@@ -1,12 +1,11 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import "./main.scss"
-import Navbar from "./components/Navbar/Navbar.tsx"
-import MainPage from "./components/MainPage/MainPage.tsx"
+
+import Home from "./routes"
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <Navbar />
-    <MainPage />
+    <Home />
   </React.StrictMode>
 )
