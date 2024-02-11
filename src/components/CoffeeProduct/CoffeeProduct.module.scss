@@ -1,0 +1,145 @@
+.section{
+  display: flex;
+  align-items: center;
+  padding-left: 22.03vw;
+  padding-right: 22.03vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.yellow{
+  margin-bottom: 1vw;
+
+  font-family: Urbanist, serif;
+  font-weight: 600;
+  font-size: 0.94vw;
+  color: #C99E71;
+}
+
+.popular{
+  margin-bottom: 5.42vw;
+
+  font-family: Righteous, serif;
+  font-weight: 400;
+  font-size: 2.5vw;
+  color: white;
+}
+
+.cards{
+  display: flex;
+  column-gap: 6.875vw;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description{
+  margin-top: 2vw;
+  display: flex;
+  column-gap: 0.68vw;
+}
+
+.coffeeYellow{
+  font-family: Urbanist, serif;
+  font-weight: 500;
+  font-size: 0.83vw;
+  color: #C99E71;
+}
+
+.name{
+  margin-top: 1vw;
+  font-family: Righteous, serif;
+  font-weight: 400;
+  font-size: 1.25vw;
+  color: white;
+  text-transform: uppercase;
+}
+
+.price{
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.3vw;
+}
+
+.whiteOne{
+  font-family: Inter, serif;
+  font-weight: 400;
+  font-size: 0.94vw;
+  color: white;
+}
+
+.yellowPrice{
+  font-family: Urbanist, serif;
+  font-weight: 600;
+  font-size: 0.94vw;
+  color: #C99E71;
+}
+
+.whiteTwo{
+  font-family: Urbanist, serif;
+  font-weight: 600;
+  font-size: 0.94vw;
+  color: white;
+}
+
+.addTo{
+  column-gap: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1vw;
+
+  background: #C99E71;
+
+  font-family: Urbanist, serif;
+  font-weight: 600;
+  font-size: 0.94vw;
+  color: white;
+
+  width: 8.80vw;
+  height: 2.5vw;
+}
+
+.view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 13.125vw;
+  height: 3.23vw;
+
+  background: #C99E71;
+  margin-top: 5vw;
+
+  font-family: Inter, serif;
+  font-weight: 700;
+  font-size: 0.94vw;
+  color: white;
+  text-transform: uppercase;
+}
+
+.card img{
+  width: 14.06vw;
+  height: 17.86vw;
+}
+
+.animation{
+  opacity: 0;
+  animation: fadeIn 2s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}

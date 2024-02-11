@@ -1,6 +1,6 @@
 .containerStories {
   display: flex;
-  padding: 200px 375px;
+  padding: 10.42vw 19.53vw 10.42vw 19.53vw;
 }
 
 .section {
@@ -10,7 +10,7 @@
 
 .first {
   display: flex;
-  column-gap: 36px;
+  column-gap: 1.875vw;
 }
 
 .card {
@@ -20,55 +20,55 @@
 
 .tag {
   display: flex;
-  column-gap: 12px;
+  column-gap: 0.625vw;
 }
 
 .number {
   font-family: Righteous, serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.25vw;
   color: #C99E71;
 }
 
 .name {
   font-family: Righteous, serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.25vw;
   color: white;
 }
 
 .img {
-  margin-top: 24px;
-  width: 366px;
-  height: 420px;
+  margin-top: 1.25vw;
+  width: 19.06vw;
+  height: 21.875vw;
 }
 
 .second {
-  margin-top: 140px;
+  margin-top: 7.29vw;
   display: flex;
-  column-gap: 32px;
+  column-gap: 1.67vw;
 }
 
 .coffeephotos {
   display: flex;
   flex-direction: column;
-  row-gap: 32px;
+  row-gap: 1.67vw;
 }
 
 .coffeephotos img {
-  width: 298px;
-  height: 302px;
+  width: 15.52vw;
+  height: 15.73vw;
 }
 
 .twoCups {
-  width: 298px;
-  height: 635px;
+  width: 15.52vw;
+  height: 33.07vw;
   background: url("./twoCups.jpeg") center center no-repeat;
   background-size: cover;
 }
 
 .newStory {
-  padding: 120px 56px 147px 56px;
+  padding: 6.25vw 2.92vw 2.92vw 2.92vw;
   background: #1C1814;
   display: flex;
   flex-direction: column;
@@ -77,22 +77,42 @@
 .history {
   font-family: Urbanist, serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 0.94vw;
   color: #C99E71;
 }
 
 .gloryText {
-  margin-top: 12px;
-  margin-bottom: 36px;
+  margin-top: 0.625vw;
+  margin-bottom: 1.875vw;
   font-family: Righteous, serif;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 2.5vw;
   color: white;
 }
 
 .paragraph{
   font-family: Urbanist, serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 0.83vw;
   color: #FFFFFFCC;
+}
+
+.animated{
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+.hidden{
+  opacity: 1;
 }
