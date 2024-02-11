@@ -1,0 +1,57 @@
+.container{;
+  padding-left: 19.53vw;
+  padding-top: 7.66vw;
+}
+
+.main{
+  display: flex;
+}
+
+.mainText{
+  font-family: Righteous, serif;
+  font-size: 3.75vw;
+  font-weight: 400;
+  line-height: 93.6px;
+  color: white;
+}
+
+.lowText{
+  margin-top: 1.67vw;
+  text-transform: capitalize;
+  font-family: Urbanist, serif;
+  font-weight: 500;
+  font-size: 1.04vw;
+  line-height: 36px;
+  color: #FFFFFFCC;
+}
+
+.coffeeMain{
+  margin-top: -7vw;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+}
+
+.testcoffee{
+  margin-top: 64px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #C99E71;
+
+  font-family: Inter, serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+
+  width: 202px;
+  height: 70px;
+}
+
+.second{
+  margin-top: 16.67vw;
+  margin-left: 28.125vw;
+}
