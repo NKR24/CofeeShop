@@ -1,4 +1,19 @@
-.nav{
+@import "../../utlis";
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%); /* Start from above the viewport */
+    opacity:  0; /* Optionally fade in */
+  }
+  to {
+    transform: translateY(0); /* End at the current position */
+    opacity:  1; /* Fully opaque */
+  }
+}
+
+.nav {
+  animation: slideDown  1s ease-out forwards;
+
   background: #1C1814;
   padding-left: 15.625vw;
   padding-right: 16.16vw;
@@ -8,12 +23,12 @@
   justify-content: space-between;
 }
 
-.textNav{
+.textNav {
   font-family: Inter, serif;
   color: white;
 }
 
-.firstPart{
+.firstPart {
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -21,16 +36,37 @@
 }
 
 
-.logo{
+.logo {
 }
 
-.info{
-
+.info {
   display: flex;
   align-items: center;
   column-gap: 48px;
 }
 
-.find{
+.find {
   background: 0;
+}
+
+@include xl {
+  .info{
+    column-gap: 30px;
+  }
+
+  .firstPart{
+    column-gap: 30px;
+  }
+}
+
+@include l{
+  .firstPart{
+    display: none;
+  }
+}
+
+@include sm{
+  .hidden{
+    display: none;
+  }
 }

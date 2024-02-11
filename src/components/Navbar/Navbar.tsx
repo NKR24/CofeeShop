@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.scss"
 import logo from "../../assets/img/Logo.svg"
+import clsx from "clsx"
 
 export default function Navbar() {
   return (
@@ -38,9 +39,9 @@ function AnotherInfo() {
   return (
     <>
       <div className={styles.info}>
-        <span className={styles.textNav}>Pages</span>
-        <span className={styles.textNav}>Shop</span>
-        <span className={styles.textNav}>Contact</span>
+        <span className={clsx(styles.textNav, styles.hidden)}>Pages</span>
+        <span className={clsx(styles.textNav, styles.hidden)}>Shop</span>
+        <span className={clsx(styles.textNav, styles.hidden)}>Contact</span>
         <button className={styles.find}>
           <span>
             <svg
